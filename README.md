@@ -36,7 +36,7 @@ Install Profil3r :
 
 ```bash
 git clone https://github.com/webdragon63/Profil3r-OSINT.git
-cd Profil3r/
+cd Profil3r-OSINT/
 sudo python3 setup.py install
 ```
 ## Features
