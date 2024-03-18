@@ -1,8 +1,8 @@
 import sys
 from itertools import chain, combinations
 from profil3r import core
-from profil3r.colors import Colors
-from multiprocessing import Process
+from profil3r.colors import colors
+from multiprocessing import process
 
 CONFIG = './config.json'
 
