@@ -1,4 +1,5 @@
 import requests
+from profil3r.colors import Colors
 import time
 
 class TikTok:
@@ -10,8 +11,6 @@ class TikTok:
         self.format = config['plateform']['tiktok']['format']
         # tiktok usernames are not case sensitive
         self.permutations_list = [perm.lower() for perm in permutations_list]
-        # social
-        self.type = config['plateform']['tiktok']['type']
 
     # Generate all potential twitter usernames
     def possible_usernames(self):
@@ -25,7 +24,6 @@ class TikTok:
 
     def search(self):
         tiktok_usernames = {
-            "type": self.type,
             "accounts": []
         }
 
