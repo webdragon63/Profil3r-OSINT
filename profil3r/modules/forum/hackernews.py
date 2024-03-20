@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
+from profil3r.colors import Colors
 import time
 
 class Hackernews:
