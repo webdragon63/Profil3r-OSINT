@@ -26,7 +26,7 @@ Profil3r is an [OSINT](https://en.wikipedia.org/wiki/Open-source_intelligence) t
 
 ## Installation
 
-Install PyInquirer, jinja2 and bs4 :
+Install PyInquirer, jinja2, bs4 and simplejson :
 
 ```bash
 pip3 install PyInquirer jinja2 bs4 simplejson
